@@ -1,0 +1,46 @@
+.header-container {
+    background-color: #CE2829;
+    height: 200px;
+
+}
+
+.title {
+    color: white;
+    font-family: "Londrina Solid", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 60px;
+}
+
+.nav-links {
+    display: flex;
+    column-gap: 0.5rem;
+    position: relative;
+    top: 80px;
+    left: 450px;
+
+}
+
+.main-container {
+    width: 40%;
+    position: relative;
+    left: 450px;
+    height: 100%;
+}
+
+.pizza-name {
+    font-weight: bold;
+    font-family: "S Core"
+}
+
+.sipariş-not {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.sipariş-form {
+    display: flex;
+}

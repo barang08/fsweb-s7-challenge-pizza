@@ -1,0 +1,12 @@
+sipariş formu sayfası oluştururken;
+sipariş notu kısmını form açarak oluştur arkasındaki yazı için placeholder ekle.
+sayfaya gelinince seçili gözükmesi için classına active ekle.
+hamur seç kısmını dropdown ile yap veya select ile de olur
+boyut seç kısmında radiobutton olur
+ek malzemeler sıkıntı
+onSubmit event handler ile formu gönder
+formda değişen verileri tutmak için hadleChange fonksiyonu yazabilirsin
+formu yollamak için handleSubmit 
+
+bir şeyi sabit atamak yerine [] kullanarak dinamik ata ki değişebilsin değeler
+ama mesela value gibi şeylerde { kullan}

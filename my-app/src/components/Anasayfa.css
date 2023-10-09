@@ -1,0 +1,14 @@
+.main {
+    background-color: red;
+    width: 100%;
+
+}
+
+button {
+    background-color: #FDC913;
+    font-weight: bold;
+    height: 60px;
+    width: 150px;
+    border: 0.1px solid #FDC913;
+    border-radius: 10%;
+}
