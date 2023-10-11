@@ -52,6 +52,7 @@ function SiparişForm() {
         const malzemeSecimi = e.target.name;
         console.log(malzemeSecimi)
 
+
         if (e.target.checked) {
             if (malzemeSecim.length <= maxSecim) {
                 setMalzemeSecim([...malzemeSecim, malzemeSecimi])
