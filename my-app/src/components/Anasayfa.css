@@ -1,14 +1,58 @@
-.main {
-    background-color: red;
-    width: 100%;
+ .main {
+     background-image: url(../Assets/mvp-banner.png);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
 
-}
 
-button {
-    background-color: #FDC913;
-    font-weight: bold;
-    height: 60px;
-    width: 150px;
-    border: 0.1px solid #FDC913;
-    border-radius: 10%;
-}
+
+
+ .header-content {
+     text-align: center;
+     padding: 20px;
+
+ }
+
+
+ h2 {
+     font-size: 80px;
+     position: relative;
+     bottom: 230px;
+     font-family: Londrina Solid;
+     color: white;
+
+
+ }
+
+ .acıktırır {
+     position: relative;
+     bottom: 220px;
+     font-size: 90px;
+     color: white;
+
+ }
+
+ .doyurur {
+     position: relative;
+     bottom: 290px;
+     font-size: 90px;
+     color: white;
+ }
+
+ #order-pizza {
+     background-color: #FDC913;
+     color: black;
+     width: 250px;
+     border-radius: 120px;
+     height: 80px;
+     font-size: 16px;
+     position: relative;
+     bottom: 350px;
+
+
+ }

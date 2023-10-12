@@ -6,36 +6,173 @@
 
 .title {
     color: white;
-    font-family: "Londrina Solid", cursive;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-family: "Londrina Solid";
     position: relative;
-    top: 60px;
+    top: 70px;
+    font-size: 50px;
+    left: 900px
 }
 
 .nav-links {
     display: flex;
     column-gap: 0.5rem;
     position: relative;
-    top: 80px;
-    left: 450px;
+    top: 60px;
+    left: 700px;
+    font-family: "Barlow";
+    font-size: 20px;
+}
 
+.main-content {
+    width: 30%;
+}
+
+
+
+.pizza-name {
+
+
+    color: #292929;
+    font-family: "Barlow", sans-serif;
+    font-size: 23px;
+    font-size: 30px;
+
+}
+
+.baslik {
+    display: inline-flex;
+    align-items: center;
+    gap: 285px;
+
+
+}
+
+.imdb {
+    position: relative;
+    left: 80px;
+    color: #5F5F5F;
+    font-size: 17px;
+}
+
+.comments {
+    color: #5F5F5F;
+    font-size: 17px;
+}
+
+
+
+.fiyattl {
+    color: black;
+    font-family: "Barlow", sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+
+
+
+.nav-link {
+    text-decoration: none;
+
+}
+
+.nav-link {
+    color: white;
+
+}
+
+.siparisolustur {
+    color: white;
+    font-weight: bold;
+}
+
+
+.kirmizi-yildiz {
+    color: rgb(219, 0, 0);
 }
 
 .main-container {
-    width: 40%;
     position: relative;
+    left: 700px;
+}
+
+.boyut-hamur-container {
+    display: inline-block;
+    width: 30%;
+}
+
+.boyut {
+    font-size: 22px;
+}
+
+.hamur {
+    font-size: 22px
+}
+
+.boyut-container {
+    display: inline-block;
+    margin: 2rem 0;
+    width: 25%;
+    height: 150px;
+}
+
+.radio-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-buttons label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.radio-buttons label p {
+    margin: 0;
+    position: relative;
+    left: 30px;
+    bottom: 25px;
+    font-size: 20px;
+}
+
+
+.hamur {
+    position: relative;
+    bottom: 180px;
     left: 450px;
-    height: 100%;
 }
 
-.pizza-name {
-    font-weight: bold;
-    font-family: "S Core"
+.kalinlik select {
+    position: relative;
+    bottom: 180px;
+    left: 450px;
+    font-size: 20px;
 }
 
-.sipariş-not {
+/* .radio-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+
+
+
+/* .boyut-hamur-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+
+
+
+ */
+
+/* .sipariş-not {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -43,4 +180,60 @@
 
 .sipariş-form {
     display: flex;
+} */
+
+.malzemeler {
+    color: #5F5F5F;
+
+    font-family: "Barlow";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 56px;
+}
+
+.malzemelist {
+    color: #5F5F5F;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 600px;
+
+}
+
+.malzemelist div {
+    margin-bottom: 20px;
+    margin-right: 80px;
+}
+
+.sipariş-not {
+    font-size: 25px;
+}
+
+.not-container form input[type="text"] {
+    height: 60px;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+
+    background: #FFF;
+
+}
+
+.sipariş-form::placeholder {
+    color: #5F5F5F;
+    position: relative;
+    left: 15px;
+    font-size: 16px;
+
+
+}
+
+button {
+    background-color: #FDC913;
+    font-weight: bold;
+    height: 60px;
+    width: 150px;
+    border: 0.1px solid #FDC913;
+    border-radius: 10%;
 }

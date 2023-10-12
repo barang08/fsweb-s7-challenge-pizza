@@ -1,9 +1,14 @@
+import "./Onay.css"
+
 function Onay() {
     return (
-        <div >
-            <h2>Teknolojik Yemekler</h2>
-            <p>TEBRIKLER!</p>
-            <p>SİPARİŞİNİZ ALINDI!</p>
+        <div className="body-container">
+            <p className="yemek-content">Teknolojik Yemekler</p>
+
+            <p className="tebrikler">TEBRIKLER!</p>
+            <p className="alındı">SİPARİŞİNİZ ALINDI!</p>
+
+
         </div>
     )
 }
