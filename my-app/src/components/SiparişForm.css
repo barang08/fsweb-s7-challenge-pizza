@@ -10,15 +10,18 @@
     position: relative;
     top: 70px;
     font-size: 50px;
-    left: 900px
+    left: 1100px
 }
 
 .nav-links {
     display: flex;
     column-gap: 0.5rem;
     position: relative;
+    font-family: "Barlow";
+    font-style: normal;
+    font-size: 16px;
     top: 60px;
-    left: 700px;
+    left: 900px;
     font-family: "Barlow";
     font-size: 20px;
 }
@@ -36,6 +39,8 @@
     font-family: "Barlow", sans-serif;
     font-size: 23px;
     font-size: 30px;
+    position: relative;
+    left: 200px;
 
 }
 
@@ -43,8 +48,19 @@
     display: inline-flex;
     align-items: center;
     gap: 285px;
+    position: relative;
+    left: 200px;
 
 
+}
+
+
+.aciklama {
+    position: relative;
+    left: 200px;
+    font-family: "Barlow";
+    font-size: 20px;
+    font-style: normal
 }
 
 .imdb {
@@ -63,7 +79,9 @@
 
 .fiyattl {
     color: black;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barlow";
+    font-size: 28px;
+    font-style: normal;
     font-size: 38px;
     font-weight: bold;
 }
@@ -99,14 +117,20 @@
 .boyut-hamur-container {
     display: inline-block;
     width: 30%;
+    position: relative;
+    left: 200px;
 }
 
 .boyut {
     font-size: 22px;
+    font-family: "Barlow";
+    font-size: normal;
 }
 
 .hamur {
-    font-size: 22px
+    font-size: 22px;
+    font-family: "Barlow";
+    font-size: normal;
 }
 
 .boyut-container {
@@ -184,6 +208,8 @@
 
 .malzemeler {
     color: #5F5F5F;
+    position: relative;
+    left: 200px;
 
     font-family: "Barlow";
     font-size: 25px;
@@ -194,17 +220,22 @@
 
 .malzemelist {
     color: #5F5F5F;
+    font-family: Barlow;
+    position: relative;
+    left: 200px;
+    font-style: normal;
     font-size: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     max-width: 600px;
 
+
 }
 
 .malzemelist div {
     margin-bottom: 20px;
-    margin-right: 80px;
+    margin-right: 30px;
 }
 
 .sipariş-not {
@@ -215,9 +246,17 @@
     height: 60px;
     border-radius: 6px;
     border: 1px solid #D9D9D9;
-
+    position: relative;
+    left: 200px;
     background: #FFF;
 
+}
+
+.sipariş-not h3 {
+    position: relative;
+    left: 200px;
+    font-family: "Barlow";
+    font-size: normal;
 }
 
 .sipariş-form::placeholder {
@@ -236,4 +275,107 @@ button {
     width: 150px;
     border: 0.1px solid #FDC913;
     border-radius: 10%;
+}
+
+.counter-container button {
+    width: 60px;
+
+}
+
+.artir-button {
+    position: relative;
+    left: 220px;
+    width: 60px;
+
+}
+
+.sayac {
+    position: relative;
+    left: 265px;
+    top: 50px;
+
+}
+
+.eksi {
+    color: #000;
+
+    text-align: center;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+
+.toplam-container {
+    border: 1px solid #D9D9D9;
+    width: 386px;
+    height: 197px;
+    flex-shrink: 0;
+    position: relative;
+    left: 410px;
+    bottom: 59px;
+}
+
+.first-cont {
+    color: #292929;
+
+    font-family: "Barlow";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    position: relative;
+    left: 50px;
+    top: 5px;
+
+
+}
+
+.second-cont {
+    color: #5F5F5F;
+
+    font-family: Barlow;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24.762px;
+    position: relative;
+    left: 50px;
+}
+
+.secimler {
+    position: relative;
+    left: 190px;
+}
+
+.third-cont {
+    color: #CE2829;
+
+    font-family: Barlow;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24.762px;
+    position: relative;
+    left: 50px;
+}
+
+.last-btn {
+
+    width: 386px;
+    height: 75px;
+    padding: 5px 100px 5px 100px;
+
+    position: relative;
+    left: 412px;
+    bottom: 59px;
+    border-radius: 6px;
+    font-size: 18px;
+
+}
+
+.azalt-button {
+    position: relative;
+    left: 200px;
+
 }

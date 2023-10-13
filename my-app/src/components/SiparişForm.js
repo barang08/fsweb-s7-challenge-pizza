@@ -105,7 +105,7 @@ function SiparişForm() {
 
 
     return (
-        <>
+        <div className="siparis-container">
 
             <div className="header-container">
                 <h1 className="title">Teknolojik Yemekler</h1>
@@ -124,7 +124,7 @@ function SiparişForm() {
                         <p className="comments">(200)</p>
 
                     </div>
-                    <p>{initialPizza.describe}</p>
+                    <p className="aciklama">{initialPizza.describe}</p>
                 </div>
 
 
@@ -246,34 +246,36 @@ function SiparişForm() {
                     <h3>Sipariş Notu</h3>
                     <div className="not-container">
                         <form id="pizza-form">
-                            <input type="text" size="75" value={not} className="sipariş-form" placeholder='Siparişine eklemek istediğin bir not var mı?' onChange={handlesiparisNotChange} />
+                            <input type="text" size="85" value={not} className="sipariş-form" placeholder='Siparişine eklemek istediğin bir not var mı?' onChange={handlesiparisNotChange} />
 
                         </form>
                     </div>
 
 
                 </div>
-                <p>{counter}</p>
-                <button onClick={artir} >+</button>
-                <button disabled={counter <= 1 ? true : false} onClick={azalt}>-</button>
+                <div className="counter-container">
+                    <p className="sayac">{counter}</p>
+                    <button className="azalt-button" disabled={counter <= 1 ? true : false} onClick={azalt}><span className="eksi">-</span></button>
+                    <button className="artir-button" onClick={artir} >+</button>
+
+                </div>
+
 
                 <div className="toplam-container">
-                    <p>Sipariş Toplamı </p>
-                    <p>Seçimler {malzemeSecim.length * 5} ₺</p>
-                    <p>Toplam {totalPrice()}₺ </p>
+                    <p className="first-cont">Sipariş Toplamı </p>
+                    <p className="second-cont">Seçimler <span className="secimler">{malzemeSecim.length * 5} ₺</span></p>
+                    <p className="third-cont">Toplam <span className="secimler">{totalPrice()}₺</span> </p>
                 </div>
                 <Link to="/onay" >
 
-                    <button  >SİPARİŞ VER</button>
+                    <button className="last-btn" >SİPARİŞ VER</button>
                 </Link>
-                <button type="button" onClick={() => history.goBack()}>
-                    Go Back
-                </button>
+
 
 
             </div >
 
-        </>
+        </div>
     )
 
 }
